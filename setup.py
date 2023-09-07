@@ -1,5 +1,9 @@
 from setuptools import find_packages, setup
 from typing import List
+import sys
+
+sys.path.append(r"C:/Users/ChayanRellan/OneDrive - SIA PARTNERS/Desktop/Machine Learning Project/mlproject")
+
 
 HYPHEN_E_DOT = '-e .'
 
