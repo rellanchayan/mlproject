@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from typing import List
 import sys
 
-sys.path.append(r"C:/Users/ChayanRellan/OneDrive - SIA PARTNERS/Desktop/Machine Learning Project/mlproject")
+sys.path.append(r"/Users/chayanrellan/Desktop/mlproject")
 
 
 HYPHEN_E_DOT = '-e .'
@@ -28,5 +28,5 @@ setup(
     author = 'Chayan Rellan',
     author_email='rellanchayan@gmail.com',
     packages = find_packages(),
-    install_requires = get_requirements(r'C:\Users\ChayanRellan\OneDrive - SIA PARTNERS\Desktop\Machine Learning Project\mlproject\requirements.txt')
+    install_requires = get_requirements(r'/Users/chayanrellan/Desktop/mlproject/requirements.txt')
 )
